@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <option name="projectDefaultTargetUuid" value="b1d9e44f-ca58-48be-8d36-13b03d192e79" />
+    <targets>
+      <target name="WSL - Ubuntu-20.04" type="wsl" uuid="b1d9e44f-ca58-48be-8d36-13b03d192e79">
+        <config>
+          <option name="distributionMsId" value="Ubuntu-20.04" />
+          <option name="projectRootOnTarget" value="/mnt/g/Program Files/JetBrains/IntelliJ IDEA 2022.1.2/jbr/bin&#10;/my_rust_learning" />
+        </config>
+        <ContributedStateBase type="RsLanguageRuntime">
+          <config>
+            <option name="cargoPath" value="/home/marceltoma/.cargo/bin/cargo" />
+            <option name="cargoVersion" value="1.62.0 (a748cf5a3 2022-06-08)" />
+            <option name="rustcPath" value="/home/marceltoma/.cargo/bin/rustc" />
+            <option name="rustcVersion" value="1.62.0 (a8314ef7d 2022-06-27)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

@@ -18,16 +18,16 @@ fn main() {
         let u_guess: u16 = match guess.trim().parse() {
             Ok(num) => num,
             Err(_) => {
-                println!("{guess} is not a valid number.");
+                println!("{guess} is not a valid number.", guess = guess.trim());
                 continue;
             }
         };
 
         match u_guess.cmp(&secret) {
-            Ordering::Less => print!("too small!!"),
+            Ordering::Less => println!("too small!!"),
             Ordering::Greater => println!("too big!!"),
             Ordering::Equal => {
-                println!("you guessed it, it's {guess}");
+                println!("you guessed it, it's {u_guess}");
                 break;
             },
         }
